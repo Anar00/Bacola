@@ -1,116 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./bacola.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Document</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./bacola.css" />
+    <title>Document</title>
+  </head>
 
-<body>
-  <div class="contanier_home">
-    <div class="covid">
-      <div class="contanier">
-        <p>
-          Due to the <b>COVID 19</b> epidemic, orders may be processed with a
-          slight delay
-        </p>
+  <body>
+    <div class="contanier_home">
+      <div class="covid">
+        <div class="contanier">
+          <p>
+            Due to the <b>COVID 19</b> epidemic, orders may be processed with a
+            slight delay
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="contanier_all">
-      <div class="contanier_hearder_top">
-        <div class="header-top">
-          <ul class="nav_ul">
-            <li class="nav_il"><a href="#">About Us</a></li>
-            <li class="nav_il"><a href="#">My account</a></li>
-            <li class="nav_il"><a href="#">Wishlist</a></li>
-            <li class="nav_il"><a href="#">Order Tracking</a></li>
-          </ul>
-        </div>
-        <div class="midlle_top">
-          <i class="fa-regular fa-hand"></i>
-          <p>100% Secure delivery without contacting the courier</p>
-        </div>
-        <div class="right_top">
-          <div class="need">
-            Need help? Call Us:
-            <a href="#">+ 0020 500</a>
+      <div class="contanier_all">
+        <div class="contanier_hearder_top">
+          <div class="header-top">
+            <ul class="nav_ul">
+              <li class="nav_il"><a href="#">About Us</a></li>
+              <li class="nav_il"><a href="#">My account</a></li>
+              <li class="nav_il"><a href="#">Wishlist</a></li>
+              <li class="nav_il"><a href="#">Order Tracking</a></li>
+            </ul>
           </div>
-          <div class="right_content">
-            <button class="downbtn">
-              English<i class="fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="down_content">
-              <a href="#">English</a>
-              <a href="#">Spanish</a>
-              <a href="#">German</a>
+          <div class="midlle_top">
+            <i class="fa-regular fa-hand"></i>
+            <p>100% Secure delivery without contacting the courier</p>
+          </div>
+          <div class="right_top">
+            <div class="need">
+              Need help? Call Us:
+              <a href="#">+ 0020 500</a>
+            </div>
+            <div class="right_content">
+              <button class="downbtn">
+                English<i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="down_content">
+                <a href="#">English</a>
+                <a href="#">Spanish</a>
+                <a href="#">German</a>
+              </div>
+            </div>
+            <div class="right_content">
+              <button class="downbtn">
+                USD<i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="down_content">
+                <a href="#">USD</a>
+                <a href="#">INR</a>
+                <a href="#">GBP</a>
+              </div>
             </div>
           </div>
-          <div class="right_content">
-            <button class="downbtn">
-              USD<i class="fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="down_content">
-              <a href="#">USD</a>
-              <a href="#">INR</a>
-              <a href="#">GBP</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-nav">
+      <div class="container-bacola">
+        <div class="img_bacola">
+          <img
+            src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png"
+            alt=""
+          />
+          <span class="brand-description">Online Grocery Shopping Center</span>
+        </div>
+
+        <div class="column-center">
+          <div class="header-location">
+            <div
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
+              <span class="location-description">Your Location</span>
+              <i class="fa-solid fa-chevron-down"></i>
+              <div class="current-location">Select a Location</div>
             </div>
+          </div>
+        </div>
+        <div class="nav-top-right">
+          <div class="input_search">
+            <input
+              type="text"
+              typr="search"
+              placeholder="Search for products..."
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="nav-icon">
+            <div class="header-buttons">
+              <button class="icon-btn">
+                <i class="fa-regular fa-user"></i>
+              </button>
+            </div>
+
+            <div></div>
+
+            <div class="dollar"><b>$0.00</b></div>
+            <button class="shop-icon">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span class="cart-count-icon">0</span>
+            </button>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="main-nav">
-    <div class="container-bacola">
-      <div class="img_bacola">
-        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt="" />
-        <span class="brand-description">Online Grocery Shopping Center</span>
-      </div>
-
-      <div class="column-center">
-        <div class="header-location ">
-          <div class="contanier-loc">
-            <span class="location-description">Your Location</span>
+    <div class="nav-bottom-contanier">
+      <div class="nav-bottom">
+        <div class="all_categories">
+          <div class="collapsed">
+            <i class="fa-solid fa-bars"></i>
+            <span class="text_catagories">ALL CATEGORIES</span>
             <i class="fa-solid fa-chevron-down"></i>
-            <div class="current-location">Select a Location</div>
+            <div class="description">TOTAL 63 PRODUCTS</div>
           </div>
-
+          <div class="site-menu">
+            <div class="menu_nav">
+              <ul>
+                <li>
+                  <a href="#">HOME<i class="fa-solid fa-chevron-down"></i></a>
+                </li>
+                <li>
+                  <a href="#">SHOP<i class="fa-solid fa-chevron-down"></i></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-burger"></i>MEATS & SEAFOOD</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-cake-candles"></i>BAKERY</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-mug-hot"></i>BEVERAGET</a>
+                </li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="nav-top-right">
-        <div class="input_search">
-          <input type="text" typr="search" placeholder="Search for products...">
-          <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-        </div>
-        <div class="nav-icon">
-          <div class="header-buttons">
-            <button class="icon-btn"><i class="fa-regular fa-user"></i></button>
-          </div>
-
-
-          <div class="dollar"> <b>$0.00</b></div>
-          <button class="shop-icon"><i class="fa-solid fa-bag-shopping"></i> 
-          </button>
-        </div>
-      </div>
-
     </div>
-  </div>
 
-  <script src="bacola.js"></script>
-</body>
-
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Choose your Delivery Location
+              <p>
+                Enter your address and we will specify the offer for your area.
+              </p>
+            </h5>
+            <div class="modal_input">
+              <input
+                class="select2-search__field"
+                type="text"
+                tabindex="0"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="none"
+                spellcheck="false"
+                role="combobox"
+                aria-autocomplete="list"
+                aria-expanded="true"
+                aria-owns="select2-site-area-results"
+                placeholder="Search your area"
+                aria-activedescendant="select2-site-area-result-k6qn-colorado"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="bacola.js"></script>
+  </body>
 </html>
-<!-- <div class="all_categories">
-    <div class="collapsed">
-      <i class="fa-solid fa-bars"></i>
-      <span class="text_catagories">ALL CATEGORIES</span>
-      <i class="fa-solid fa-chevron-down"></i>
-      <div class="description">TOTAL 63 PRODUCTS</div>
-    </div>
-  </div> -->
