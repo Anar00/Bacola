@@ -5,7 +5,7 @@
 }
 
 .contanier_all {
-  width: 1496px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 body .covid {
-  width: 1496px;
+  width: 100%;
   color: #fff;
   background-color: #233a95;
   z-index: 1001;
@@ -172,7 +172,7 @@ a {
   display: none;
 }
 .container-bacola {
-  width: 1200px ;
+  width: 100%;
   
   display: flex;
   justify-content: center;
@@ -184,7 +184,7 @@ a {
 }
 
 .main-nav {
-  width: 1496px;
+  width: 100%;
   display: flex;
   
   justify-content: center;
@@ -463,7 +463,7 @@ a {
 }
 
 .nav-bottom-contanier {
-  width: 1496px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -665,7 +665,7 @@ a {
 
 } 
 .main-contanier-corousel{
-  width: 1496px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;  
