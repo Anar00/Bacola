@@ -5,6 +5,7 @@
 }
 
 .contanier_all {
+  width: 1496px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,11 +23,12 @@
 }
 
 body .covid {
-  width: 100%;
+  width: 1496px;
   color: #fff;
   background-color: #233a95;
   z-index: 1001;
-  display: block;
+  position: relative;
+ 
   justify-content: center;
 }
 
@@ -166,20 +168,31 @@ a {
 .container-bacola img {
   width: 164px;
 }
-
-.container-bacola {
-  width: 1200px;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 30px;
+.bacola_logo{
+  display: none;
 }
-
-.main-nav {
+.container-bacola {
+  width: 1200px ;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+}
+#bacola{
+  display: none;
 }
 
+.main-nav {
+  width: 1496px;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+#burger-icon{
+  display: none;
+}
 .brand-description {
   display: block;
   font-size: .6875rem;
@@ -239,7 +252,52 @@ a {
   border-radius: 1.125rem;
   bottom: -0.5rem;
 }
-
+/* .dropdown-categories{
+  
+  visibility: hidden;
+  background-color: #ffffff;
+  border-color: #e4e5ee;
+  position: absolute;
+  min-width: 270px;
+  left: 0;
+  top: 100%;
+  border: 1px solid #e4e5ee;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  transition: all 0.2s cubic-bezier(.28,.12,.22,1);
+}
+.menu-sidebar{
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Inter", sans-serif;
+}
+.menu-sidebar li a{
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+  display: flex;
+  align-items: center;
+  font-size: .8125rem;
+  width: 100%;
+  padding-top: 0.4375rem;
+  padding-bottom: 0.4375rem;
+  color: #3e445a;
+}
+.menu-sidebar li a:hover{
+  color: #2bbef9;
+}
+.menu-sidebar li a i{
+  font-size: 145%;
+  opacity: .5;
+  margin-right: 0.9375rem;
+  
+}
+.link-parent{
+  border-top: 1px solid #d9d9e9;
+  margin-top: 1.125rem;
+  padding-top: 1.125rem;
+} */
 .column-center {
 
   padding-left: 3.75rem;
@@ -376,6 +434,7 @@ a {
 }
 
 .nav-top-right {
+  
   display: flex;
   align-items: center;
 }
@@ -404,6 +463,7 @@ a {
 }
 
 .nav-bottom-contanier {
+  width: 1496px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -580,15 +640,15 @@ a {
   font-size: 10px;
   border-radius: 20px;
 }
-/* #carouselExampleIndicators{
-  width: 870px;
-  height: 486px;
-  border-radius: 8px;
-} */
+ #carouselExampleIndicators{
+            
+} 
 
 #carousel{
   display: flex;
-  justify-content: flex-end;        
+  justify-content: flex-end;
+  align-items: center;
+  width: 1200px ;
   padding-top: 30px;
   
 
@@ -602,17 +662,21 @@ a {
   border-radius: 8px;
   border-radius: 8px;
   padding-bottom: 15px;
-   padding-right: 30px;
+
 } 
 .main-contanier-corousel{
-  width: 1200px;
-  margin: auto ;
+  width: 1496px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+ 
 }
 .body_contanier{
  
   display: flex;
+  justify-content: center; 
   padding-top: 15px;
-  width: 1200px;
+  width: 1496px;
   margin: auto ;
 
 }
@@ -644,7 +708,77 @@ a {
   
 }
 .view-btn{
-  width: 447px;
+  width: 420px;
+  font-size: .75rem;
+  height: 2.125rem;
+ 
   display: flex;
   justify-content: flex-end;
 }
+.view-btn span{
+  width: 112px;
+  color: #9b9bb4;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+   border-radius: 1.875rem!important;
+  border: 1px solid #d9d9e9;
+}
+.bacola_logo{
+  display: none;
+}
+.view-btn span i{
+  margin-left: 10px;
+}
+.logo-brand-description{
+  display: none;
+}
+@media only screen and (max-width:1216px){
+  .covid{
+    width: 1200px;
+  }
+  .contanier_all{
+
+    display: none;
+  }
+  .column-center{
+    display: none;
+  }
+  .img_bacola{
+    display: none;
+  }
+  .bacola_logo{
+  
+    display: block  ; 
+    padding-right:30px ;
+  }
+  .main-nav{
+    width: 1216px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+
+  }
+  .bacola_logo div{
+    
+    display: flex;
+    
+  }
+  .nav-bottom-contanier{
+    display: none;
+  }
+  .carousel{
+    width: 1216px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+  #bacola{
+    display: block;
+    padding-right: 30px;
+  }
+
+}
+
+
